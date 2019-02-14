@@ -1,0 +1,5 @@
+nasa/db.sqlite3
+*.pyc
+nasa/staticfiles
+env
+.pyenv
