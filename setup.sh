@@ -45,7 +45,7 @@ echo ""
 echo "In order to start the application, activate the virtualenv first with the following commands:"
 echo ""
 echo 'PYENV_ROOT=$(pwd)/.pyenv'
-echo "PATH=$PYENV_ROOT/bin:$PATH"
+echo "PATH=$(pwd)/.pyenv/bin:$PATH"
 echo 'eval "$(pyenv init -)" '
 echo "pyenv activate venv"
 echo ""
